@@ -1,0 +1,56 @@
+2019-07-18 07:30:39.096 [ Info] [log.go:465] config: ./conf/config.json
+{
+    "Debug": true,
+    "LogDir": "./logs/",
+    "SvrAddr": ":8888",
+    "StaticAddr": ""
+}
+2019-07-18 07:30:39.097 [ Info] [log.go:465] app version: ''
+2019-07-18 07:30:39.097 [Debug] [log.go:460] [HttpServer KISS] Serve On: :8888
+2019-07-18 07:30:42.097 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 0
+2019-07-18 07:30:45.099 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 1
+2019-07-18 07:30:48.104 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 2
+2019-07-18 07:30:51.105 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 3
+2019-07-18 07:30:54.108 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 4
+2019-07-18 07:30:57.112 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 5
+2019-07-18 07:31:00.113 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 6
+2019-07-18 07:31:03.113 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 7
+2019-07-18 07:31:06.116 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 8
+2019-07-18 07:31:09.117 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 9
+2019-07-18 07:31:12.117 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 10
+2019-07-18 07:31:15.118 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 11
+2019-07-18 07:31:18.119 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 12
+2019-07-18 07:31:21.123 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 13
+2019-07-18 07:31:24.126 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 14
+2019-07-18 07:31:27.130 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 15
+2019-07-18 07:31:30.135 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 16
+2019-07-18 07:31:33.137 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 17
+2019-07-18 07:31:36.137 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 18
+2019-07-18 07:31:39.139 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 19
+2019-07-18 07:31:42.161 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 20
+2019-07-18 07:31:45.167 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 21
+2019-07-18 07:31:48.168 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 22
+2019-07-18 07:31:51.173 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 23
+2019-07-18 07:31:54.174 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 24
+2019-07-18 07:31:57.175 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 25
+2019-07-18 07:32:00.176 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 26
+2019-07-18 07:32:03.177 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 27
+2019-07-18 07:32:06.179 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 28
+2019-07-18 07:32:09.180 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 29
+2019-07-18 07:32:12.183 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 30
+2019-07-18 07:32:15.184 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 31
+2019-07-18 07:32:18.184 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 32
+2019-07-18 07:32:21.187 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 33
+2019-07-18 07:32:24.187 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 34
+2019-07-18 07:32:27.189 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 35
+2019-07-18 07:32:30.189 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 36
+2019-07-18 07:32:33.190 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 37
+2019-07-18 07:32:36.190 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 38
+2019-07-18 07:32:39.190 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 39
+2019-07-18 07:32:42.210 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 40
+2019-07-18 07:32:43.797 [Debug] [log.go:460] Recv Signal: interrupt
+2019-07-18 07:32:43.797 [Debug] [log.go:460] WSServer Shutdown ...
+2019-07-18 07:32:43.797 [Debug] [log.go:460] [HttpServer KISS] Exit: accept tcp [::]:8888: use of closed network connection
+2019-07-18 07:32:43.797 [Debug] [log.go:460] [HttpServer KISS] shutdown waitting...
+2019-07-18 07:32:43.797 [Debug] [log.go:460] [HttpServer KISS] shutdown done.
+2019-07-18 07:32:43.797 [Debug] [log.go:460] WSServer Shutdown success

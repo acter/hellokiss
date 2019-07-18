@@ -1,41 +1,48 @@
 package app
 
 import (
-	"fmt"
+	// "fmt"
 	"github.com/nothollyhigh/kiss/log"
 	"github.com/nothollyhigh/kiss/net"
-	"sync/atomic"
+	// "sync/atomic"
 )
 
 var (
 	count int64 = 0
 )
 
-func onLoginReq(client *net.WSClient, msg net.IMessage) {
+func onLoginReq(client *net.WSClient, data []byte) {
+	log.Info("onLoginReq success:")
 	var (
-		err error
-		req = &LoginReq{}
 		rsp = &LoginRsp{}
 	)
+	rsp.MsgId = 2
+	rsp.Content.ServerTime = 1563317708411
+	client.SendMsg(NewMessage(2, rsp))
+	// var (
+	// 	err error
+	// 	req = &LoginReq{}
+	// 	rsp = &LoginRsp{}
+	// )
 
-	if err = json.Unmarshal(msg.Body(), req); err != nil {
-		rsp.Code = -1
-		rsp.Msg = "错误的json数据格式"
-		client.SendMsgWithCallback(NewMessage(CMD_LOGIN_RSP, rsp), userMgr.KickClient)
-		return
-	}
+	// if err = json.Unmarshal(msg.Body(), req); err != nil {
+	// 	rsp.Code = -1
+	// 	rsp.Msg = "错误的json数据格式"
+	// 	client.SendMsgWithCallback(NewMessage(CMD_LOGIN_RSP, rsp), userMgr.KickClient)
+	// 	return
+	// }
 
-	rsp.Msg = "登录成功"
-	rsp.Name = fmt.Sprintf("guest_%v", atomic.AddInt64(&count, 1))
+	// rsp.Msg = "登录成功"
+	// rsp.Name = fmt.Sprintf("guest_%v", atomic.AddInt64(&count, 1))
 
-	userMgr.Add(rsp.Name, client)
-	client.OnClose("disconnected", func(*net.WSClient) {
-		userMgr.Delete(rsp.Name)
-	})
+	// userMgr.Add(rsp.Name, client)
+	// client.OnClose("disconnected", func(*net.WSClient) {
+	// 	userMgr.Delete(rsp.Name)
+	// })
 
-	client.SendMsg(NewMessage(CMD_LOGIN_RSP, rsp))
+	// client.SendMsg(NewMessage(CMD_LOGIN_RSP, rsp))
 
-	userMgr.Broadcast(fmt.Sprintf("欢迎 %v 进入游戏！", rsp.Name))
+	// userMgr.Broadcast(fmt.Sprintf("欢迎 %v 进入游戏！", rsp.Name))
 
-	log.Info("onLoginReq success: %v", rsp.Name)
+	// log.Info("onLoginReq success: %v", rsp.Name)
 }

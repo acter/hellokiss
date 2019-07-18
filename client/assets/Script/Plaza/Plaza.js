@@ -1,4 +1,4 @@
-var Websocket = require("Websocket");
+var Websocket = require("Websocket_pb");
 
 cc.Class({
     extends: cc.Component,
@@ -43,12 +43,18 @@ cc.Class({
                 
                 self.schedule(function() {
                     if (cc.plazaWs) {
-                        cc.plazaWs.sendMsg(self.CMD_PING);
+                        // cc.plazaWs.sendMsg(self.CMD_PING);
                     }
                 }, 30);
             }
 
-            cc.plazaWs.sendMsg(self.CMD_LOGIN_REQ, {});
+            cc.plazaWs.sendMsg(self.CMD_LOGIN_REQ, {
+                isAutoLogin: true,
+                userId: 123456,
+                openId: "so8vC85jEEFGjpbp",
+                version: "1.0.0",
+                cVersion: "20190718"
+            });
         }
     },
 

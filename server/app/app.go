@@ -75,7 +75,7 @@ func Run(version string) {
 
 	log.Info("app version: '%v'", version)
 
-	util.Go(userMgr.BroadcastLoop)
+	// util.Go(userMgr.BroadcastLoop)
 
 	startWsServer()
 }

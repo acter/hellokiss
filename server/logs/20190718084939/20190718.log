@@ -1,0 +1,32 @@
+2019-07-18 08:49:39.112 [ Info] [log.go:465] config: ./conf/config.json
+{
+    "Debug": true,
+    "LogDir": "./logs/",
+    "SvrAddr": ":8888",
+    "StaticAddr": ""
+}
+2019-07-18 08:49:39.112 [ Info] [log.go:465] app version: ''
+2019-07-18 08:49:39.112 [Debug] [log.go:460] [HttpServer KISS] Serve On: :8888
+2019-07-18 08:49:42.087 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:49:42.538 [Debug] [log.go:460] Websocket ReadMessage failed: websocket: close 1001 (going away)
+2019-07-18 08:49:48.568 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:50:18.593 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:50:48.598 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:51:18.607 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:51:48.608 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:52:18.625 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:52:48.642 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:53:18.657 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:53:36.388 [Debug] [log.go:460] Websocket ReadMessage failed: websocket: close 1001 (going away)
+2019-07-18 08:53:36.890 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:53:57.900 [Debug] [log.go:460] Websocket ReadMessage failed: websocket: close 1001 (going away)
+2019-07-18 08:53:58.574 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:54:28.601 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:54:58.606 [Error] [log.go:475] no handler for msgId: 0
+2019-07-18 08:55:02.795 [Debug] [log.go:460] Recv Signal: interrupt
+2019-07-18 08:55:02.795 [Debug] [log.go:460] WSServer Shutdown ...
+2019-07-18 08:55:02.796 [Debug] [log.go:460] Websocket ReadMessage failed: read tcp [::1]:8888->[::1]:64502: use of closed network connection
+2019-07-18 08:55:02.796 [Debug] [log.go:460] [HttpServer KISS] Exit: accept tcp [::]:8888: use of closed network connection
+2019-07-18 08:55:02.796 [Debug] [log.go:460] [HttpServer KISS] shutdown waitting...
+2019-07-18 08:55:02.796 [Debug] [log.go:460] [HttpServer KISS] shutdown done.
+2019-07-18 08:55:02.796 [Debug] [log.go:460] WSServer Shutdown success

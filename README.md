@@ -21,4 +21,12 @@ go run main.go
 
 ### 访问
 
+##客户端
+
+```sh
+cd client
+npm install utfx
+npm install pako
+
+```
 - http://localhost:8888/

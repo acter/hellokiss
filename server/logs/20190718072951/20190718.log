@@ -1,0 +1,29 @@
+2019-07-18 07:29:51.686 [ Info] [log.go:465] config: ./conf/config.json
+{
+    "Debug": true,
+    "LogDir": "./logs/",
+    "SvrAddr": ":8888",
+    "StaticAddr": ""
+}
+2019-07-18 07:29:51.686 [ Info] [log.go:465] app version: ''
+2019-07-18 07:29:51.687 [Debug] [log.go:460] [HttpServer KISS] Serve On: :8888
+2019-07-18 07:29:54.691 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 0
+2019-07-18 07:29:57.692 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 1
+2019-07-18 07:30:00.692 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 2
+2019-07-18 07:30:03.692 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 3
+2019-07-18 07:30:06.694 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 4
+2019-07-18 07:30:09.698 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 5
+2019-07-18 07:30:12.716 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 6
+2019-07-18 07:30:15.722 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 7
+2019-07-18 07:30:18.725 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 8
+2019-07-18 07:30:21.725 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 9
+2019-07-18 07:30:24.727 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 10
+2019-07-18 07:30:27.728 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 11
+2019-07-18 07:30:30.729 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 12
+2019-07-18 07:30:33.729 [ Info] [log.go:465] Broadcast to 0 clients: 广播消息 13
+2019-07-18 07:30:36.148 [Debug] [log.go:460] Recv Signal: interrupt
+2019-07-18 07:30:36.148 [Debug] [log.go:460] WSServer Shutdown ...
+2019-07-18 07:30:36.148 [Debug] [log.go:460] [HttpServer KISS] Exit: accept tcp [::]:8888: use of closed network connection
+2019-07-18 07:30:36.148 [Debug] [log.go:460] [HttpServer KISS] shutdown waitting...
+2019-07-18 07:30:36.148 [Debug] [log.go:460] [HttpServer KISS] shutdown done.
+2019-07-18 07:30:36.148 [Debug] [log.go:460] WSServer Shutdown success
